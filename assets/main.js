@@ -17,7 +17,7 @@ const selectHouse = document.getElementById('house');
     //console.log(element.house);
     if (element.house === '' && element.patronus === '') {
       result = containerRoot.innerHTML += `
-      <div class="container-fluid">
+      <div>
         <div class="card">
           <div class="box">
             <div class="img">
@@ -30,7 +30,7 @@ const selectHouse = document.getElementById('house');
       </div>`
     } else if (element.house !== '' && element.patronus === '') {
       result = containerRoot.innerHTML += `
-      <div class="container-fluid">
+      <div>
         <div class="card">
           <div class="box">
             <div class="img">
@@ -43,7 +43,7 @@ const selectHouse = document.getElementById('house');
       </div>`
     } else if (element.house === '' && element.patronus !== '') {
       result = containerRoot.innerHTML += `
-      <div class="container-fluid">
+      <div>
         <div class="card">
           <div class="box">
             <div class="img">
@@ -56,7 +56,7 @@ const selectHouse = document.getElementById('house');
       </div>`
     } else {
       result = containerRoot.innerHTML += `
-      <div class="container-fluid">
+      <div>
         <div class="card">
           <div class="box">
             <div class="img">
