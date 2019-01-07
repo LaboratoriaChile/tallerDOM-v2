@@ -81,7 +81,7 @@ const selectHouse = document.getElementById('house');
 
   filtered.forEach(element => {
     containerRoot.innerHTML += `
-    <div class="container-fluid">
+    <div>
       <div class="card">
         <div class="box">
           <div class="img">
